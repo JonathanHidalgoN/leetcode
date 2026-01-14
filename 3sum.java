@@ -3,6 +3,11 @@ import java.util.Arrays;
 import java.util.List;
 
 class Solution {
+
+  public static void main(String[] args) {
+    System.out.println("Running");
+  }
+
   public List<List<Integer>> threeSum(int[] nums) {
 
     Arrays.sort(nums);
